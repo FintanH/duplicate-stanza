@@ -1,0 +1,16 @@
+name:                duplicate-stanza
+version:             0.1.0.0
+
+dependencies:
+- base >= 4.7 && < 5
+
+tests:
+  first:
+    main:                Spec.hs
+    source-dirs:         test/first
+
+tests:
+  second:
+    main:                Spec.hs
+    source-dirs:         test/second
+
